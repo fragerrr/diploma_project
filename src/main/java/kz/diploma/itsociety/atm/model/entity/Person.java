@@ -27,6 +27,6 @@ public class Person {
     @Column(name = "iin", unique = true)
     public String IIN;
 
-    @OneToOne(mappedBy = "account_id")
+    @OneToOne(mappedBy = "person")
     public BankAccount bankAccount;
 }

@@ -29,6 +29,6 @@ public class Card {
     @Column(name = "pin")
     public String pin;
 
-    @OneToOne(mappedBy = "account_id")
+    @OneToOne(mappedBy = "card")
     public BankAccount bankAccount;
 }
