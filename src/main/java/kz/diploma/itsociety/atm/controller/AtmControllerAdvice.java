@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 @RestControllerAdvice
-public class AmtControllerAdvice {
+public class AtmControllerAdvice {
 
     @ExceptionHandler(PersonNotFoundException.class)
     public ResponseEntity<String> personNotFoundException(PersonNotFoundException e){
